@@ -1,0 +1,31 @@
+# Initial Commands
+
+git --version 
+
+git config --global --list
+
+git init
+
+
+# Basic Commands to commit a file
+
+git add test1.txt
+
+git status
+
+git commit -m "test1 file created."
+
+
+# git log and git show
+
+
+git log
+
+git show commit-id
+
+
+## Connecting to Remote repo (GitHub)
+
+git remote add origin link
+
+git push origin master 
